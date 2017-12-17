@@ -178,13 +178,13 @@
 
 	insteadOf = "gist:"
 [user]
-	name = Donald Averill
-	email = donaldaverill@gmail.com
+	name = [CHANGETHIS]
+	email = [CHANGETHIS]
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/dea/.stCommitMsg
+	template = /Users/[CHANGETHIS]/.stCommitMsg
